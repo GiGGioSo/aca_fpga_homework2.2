@@ -1,0 +1,2085 @@
+TRACE::2026-06-10.17:13:30::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:30::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:30::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:30::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:30::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:30::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:30::SCWPlatform::Do not have an existing db opened. 
+TRACE::2026-06-10.17:13:31::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:31::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"/home/gio/uni/aca/fpga/aca_fpga_homework2.2/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2026-06-10.17:13:31::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"/home/gio/uni/aca/fpga/aca_fpga_homework2.2/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper"
+		}]
+}
+TRACE::2026-06-10.17:13:31::SCWPlatform::Boot application domains not present, creating them
+TRACE::2026-06-10.17:13:31::SCWDomain::checking for install qemu data   : 
+TRACE::2026-06-10.17:13:31::SCWDomain:: Using the QEMU Data from install at  : /opt/Xilinx/Vitis/2024.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2026-06-10.17:13:31::SCWDomain:: Using the QEMU args  from install at  : /opt/Xilinx/Vitis/2024.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2026-06-10.17:13:31::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:31::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:31::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:31::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:31::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:31::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:31::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:31::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:31::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:31::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:31::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:31::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:31::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:31::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:31::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:31::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:31::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:31::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:31::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:31::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:31::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:31::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:31::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:31::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:31::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2026-06-10.17:13:31::SCWPlatform::Generating the sources  .
+TRACE::2026-06-10.17:13:31::SCWBDomain::Generating boot domain sources.
+TRACE::2026-06-10.17:13:31::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2026-06-10.17:13:31::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:31::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:31::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:31::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:31::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:31::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:31::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:31::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:31::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:31::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2026-06-10.17:13:31::SCWMssOS::No sw design opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:31::SCWMssOS::mss does not exists at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:31::SCWMssOS::Creating sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:31::SCWMssOS::Adding the swdes entry, created swdb /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:31::SCWMssOS::updating the scw layer changes to swdes at   /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:31::SCWMssOS::Writing mss at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:31::SCWMssOS::Completed writing the mss file at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2026-06-10.17:13:31::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2026-06-10.17:13:31::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2026-06-10.17:13:31::SCWBDomain::Completed writing the mss file at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2026-06-10.17:13:34::SCWPlatform::Generating sources Done.
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2026-06-10.17:13:34::SCWMssOS::No sw design opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::mss exists loading the mss file  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::Opened the sw design from mss  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::Adding the swdes entry /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2026-06-10.17:13:34::SCWMssOS::updating the scw layer about changes
+TRACE::2026-06-10.17:13:34::SCWMssOS::Opened the sw design.  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::Saving the mss changes /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Commit changes completed.
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"/home/gio/uni/aca/fpga/aca_fpga_homework2.2/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.2",
+					"mssFile":	"",
+					"md5Digest":	"b7fcd16eb3f076409d4e9d0101b47651",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.3", "xilrsa:1.8"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2026-06-10.17:13:34::SCWMssOS::Saving the mss changes /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Commit changes completed.
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"/home/gio/uni/aca/fpga/aca_fpga_homework2.2/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.2",
+					"mssFile":	"",
+					"md5Digest":	"b7fcd16eb3f076409d4e9d0101b47651",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.3", "xilrsa:1.8"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWDomain::checking for install qemu data   : 
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::No sw design opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::mss does not exists at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::Creating sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::Adding the swdes entry, created swdb /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::updating the scw layer changes to swdes at   /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::Writing mss at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::Completed writing the mss file at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2026-06-10.17:13:34::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2026-06-10.17:13:34::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2026-06-10.17:13:34::SCWMssOS::Completed writing the mss file at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2026-06-10.17:13:34::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Saving the mss changes /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Commit changes completed.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Saving the mss changes /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system_0
+TRACE::2026-06-10.17:13:34::SCWMssOS::Writing the mss file completed /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::Commit changes completed.
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"/home/gio/uni/aca/fpga/aca_fpga_homework2.2/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.2",
+					"mssFile":	"",
+					"md5Digest":	"b7fcd16eb3f076409d4e9d0101b47651",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.3", "xilrsa:1.8"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.2",
+					"mssFile":	"",
+					"md5Digest":	"dc90d2ebf081962174e675236210d9dd",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2026-06-10.17:13:34::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2026-06-10.17:13:34::SCWPlatform::Sanity checking of platform is completed
+LOG::2026-06-10.17:13:34::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2026-06-10.17:13:34::SCWSystem::Checking the domain zynq_fsbl
+LOG::2026-06-10.17:13:34::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2026-06-10.17:13:34::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2026-06-10.17:13:34::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2026-06-10.17:13:34::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2026-06-10.17:13:34::SCWSystem::Not a boot domain 
+LOG::2026-06-10.17:13:34::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2026-06-10.17:13:34::SCWDomain::Generating domain artifcats
+TRACE::2026-06-10.17:13:34::SCWMssOS::Generating standalone artifcats
+TRACE::2026-06-10.17:13:34::SCWMssOS:: Copying the user libraries. 
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::Completed writing the mss file at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2026-06-10.17:13:34::SCWMssOS::Mss edits present, copying mssfile into export location /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2026-06-10.17:13:34::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2026-06-10.17:13:34::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2026-06-10.17:13:34::SCWMssOS::skipping the bsp build ... 
+TRACE::2026-06-10.17:13:34::SCWMssOS::Copying to export directory.
+TRACE::2026-06-10.17:13:34::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2026-06-10.17:13:34::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2026-06-10.17:13:34::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2026-06-10.17:13:34::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2026-06-10.17:13:34::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2026-06-10.17:13:34::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2026-06-10.17:13:34::SCWPlatform::Started preparing the platform 
+TRACE::2026-06-10.17:13:34::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2026-06-10.17:13:34::SCWSystem::dir created 
+TRACE::2026-06-10.17:13:34::SCWSystem::Writing the bif 
+TRACE::2026-06-10.17:13:34::SCWPlatform::Started writing the spfm file 
+TRACE::2026-06-10.17:13:34::SCWPlatform::Started writing the xpfm file 
+TRACE::2026-06-10.17:13:34::SCWPlatform::Completed generating the platform
+TRACE::2026-06-10.17:13:34::SCWMssOS::Saving the mss changes /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Commit changes completed.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Saving the mss changes /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Commit changes completed.
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"/home/gio/uni/aca/fpga/aca_fpga_homework2.2/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.2",
+					"mssFile":	"",
+					"md5Digest":	"b7fcd16eb3f076409d4e9d0101b47651",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.3", "xilrsa:1.8"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.2",
+					"mssFile":	"",
+					"md5Digest":	"dc90d2ebf081962174e675236210d9dd",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2026-06-10.17:13:34::SCWPlatform::updated the xpfm file.
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::Saving the mss changes /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Commit changes completed.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Saving the mss changes /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Commit changes completed.
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"/home/gio/uni/aca/fpga/aca_fpga_homework2.2/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.2",
+					"mssFile":	"",
+					"md5Digest":	"b7fcd16eb3f076409d4e9d0101b47651",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.3", "xilrsa:1.8"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.2",
+					"mssFile":	"",
+					"md5Digest":	"dc90d2ebf081962174e675236210d9dd",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::Saving the mss changes /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Commit changes completed.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Saving the mss changes /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Commit changes completed.
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"/home/gio/uni/aca/fpga/aca_fpga_homework2.2/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.2",
+					"mssFile":	"",
+					"md5Digest":	"b7fcd16eb3f076409d4e9d0101b47651",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.3", "xilrsa:1.8"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.2",
+					"mssFile":	"",
+					"md5Digest":	"dc90d2ebf081962174e675236210d9dd",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2026-06-10.17:13:34::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2026-06-10.17:13:34::SCWPlatform::Sanity checking of platform is completed
+LOG::2026-06-10.17:13:34::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2026-06-10.17:13:34::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2026-06-10.17:13:34::SCWDomain::Generating domain artifcats
+TRACE::2026-06-10.17:13:34::SCWMssOS::Generating standalone artifcats
+TRACE::2026-06-10.17:13:34::SCWMssOS:: Copying the user libraries. 
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::Completed writing the mss file at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2026-06-10.17:13:34::SCWMssOS::Mss edits present, copying mssfile into export location /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2026-06-10.17:13:34::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2026-06-10.17:13:34::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2026-06-10.17:13:34::SCWMssOS::skipping the bsp build ... 
+TRACE::2026-06-10.17:13:34::SCWMssOS::Copying to export directory.
+TRACE::2026-06-10.17:13:34::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2026-06-10.17:13:34::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2026-06-10.17:13:34::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2026-06-10.17:13:34::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2026-06-10.17:13:34::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2026-06-10.17:13:34::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2026-06-10.17:13:34::SCWPlatform::Started preparing the platform 
+TRACE::2026-06-10.17:13:34::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2026-06-10.17:13:34::SCWSystem::dir created 
+TRACE::2026-06-10.17:13:34::SCWSystem::Writing the bif 
+TRACE::2026-06-10.17:13:34::SCWPlatform::Started writing the spfm file 
+TRACE::2026-06-10.17:13:34::SCWPlatform::Started writing the xpfm file 
+TRACE::2026-06-10.17:13:34::SCWPlatform::Completed generating the platform
+TRACE::2026-06-10.17:13:34::SCWMssOS::Saving the mss changes /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Commit changes completed.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Saving the mss changes /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-06-10.17:13:34::SCWMssOS::Commit changes completed.
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:13:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:13:34::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:13:34::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:13:34::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"/home/gio/uni/aca/fpga/aca_fpga_homework2.2/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.2",
+					"mssFile":	"",
+					"md5Digest":	"b7fcd16eb3f076409d4e9d0101b47651",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.3", "xilrsa:1.8"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.2",
+					"mssFile":	"",
+					"md5Digest":	"dc90d2ebf081962174e675236210d9dd",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2026-06-10.17:13:34::SCWPlatform::updated the xpfm file.
+LOG::2026-06-10.17:17:43::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2026-06-10.17:17:43::SCWPlatform::Sanity checking of platform is completed
+LOG::2026-06-10.17:17:43::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2026-06-10.17:17:43::SCWSystem::Checking the domain zynq_fsbl
+LOG::2026-06-10.17:17:43::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2026-06-10.17:17:43::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2026-06-10.17:17:43::SCWDomain::Building the domain as part of full build :  zynq_fsbl
+TRACE::2026-06-10.17:17:43::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:43::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:43::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:43::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:17:43::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:43::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:17:43::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:17:43::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:17:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:17:43::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:17:43::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:17:43::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:17:43::SCWBDomain::Completed writing the mss file at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2026-06-10.17:17:43::SCWBDomain::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2026-06-10.17:17:43::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2026-06-10.17:17:43::SCWBDomain::System Command Ran  cd  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl ; bash -c " make -C zynq_fsbl_bsp ; make  " 
+TRACE::2026-06-10.17:17:43::SCWBDomain::make: Entering directory '/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp'
+TRACE::2026-06-10.17:17:43::SCWBDomain::
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make --no-print-directory seq_libs
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_11/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_11/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm
+TRACE::2026-06-10.17:17:43::SCWBDomain::-none-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-
+TRACE::2026-06-10.17:17:43::SCWBDomain::abi=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-no
+TRACE::2026-06-10.17:17:43::SCWBDomain::ne-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi
+TRACE::2026-06-10.17:17:43::SCWBDomain::=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2026-06-10.17:17:43::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2026-06-10.17:17:43::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_8/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-06-10.17:17:43::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-06-10.17:17:43::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_11/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_11/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-06-10.17:17:43::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-06-10.17:17:43::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scugic_v5_4/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v5_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-06-10.17:17:43::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-06-10.17:17:43::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_6/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2026-06-10.17:17:43::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2026-06-10.17:17:43::SCWBDomain:: -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_6/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-06-10.17:17:43::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-06-10.17:17:43::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/standalone_v9_2/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v9_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2026-06-10.17:17:43::SCWBDomain::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2026-06-10.17:17:43::SCWBDomain::rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_7/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-06-10.17:17:43::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-06-10.17:17:43::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xilffs_v5_3/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v5_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-06-10.17:17:43::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-06-10.17:17:43::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_8/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-06-10.17:17:43::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-06-10.17:17:43::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_8/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2026-06-10.17:17:43::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2026-06-10.17:17:43::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Finished building libraries sequentially.
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -j 6 --no-print-directory par_libs
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-no
+TRACE::2026-06-10.17:17:43::SCWBDomain::ne-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi
+TRACE::2026-06-10.17:17:43::SCWBDomain::=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_11/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_8/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_11/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm
+TRACE::2026-06-10.17:17:43::SCWBDomain::-none-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-
+TRACE::2026-06-10.17:17:43::SCWBDomain::abi=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-06-10.17:17:43::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-06-10.17:17:43::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2026-06-10.17:17:43::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2026-06-10.17:17:43::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_11/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scugic_v5_4/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_11/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-06-10.17:17:43::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-06-10.17:17:43::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v5_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-06-10.17:17:43::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-06-10.17:17:43::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_6/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2026-06-10.17:17:43::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2026-06-10.17:17:43::SCWBDomain:: -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_6/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-06-10.17:17:43::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-06-10.17:17:43::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/standalone_v9_2/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v9_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2026-06-10.17:17:43::SCWBDomain::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2026-06-10.17:17:43::SCWBDomain::rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_7/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xilffs_v5_3/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_8/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-06-10.17:17:43::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-06-10.17:17:43::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v5_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-06-10.17:17:43::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-06-10.17:17:43::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-06-10.17:17:43::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-06-10.17:17:43::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_11/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_11/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-no
+TRACE::2026-06-10.17:17:43::SCWBDomain::ne-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi
+TRACE::2026-06-10.17:17:43::SCWBDomain::=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_8/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2026-06-10.17:17:43::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2026-06-10.17:17:43::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2026-06-10.17:17:43::SCWBDomain::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2026-06-10.17:17:43::SCWBDomain::rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-06-10.17:17:43::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-06-10.17:17:43::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_11/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/scugic_v5_4/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_11/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2026-06-10.17:17:43::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2026-06-10.17:17:43::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v5_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2026-06-10.17:17:43::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2026-06-10.17:17:43::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_6/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2026-06-10.17:17:43::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2026-06-10.17:17:43::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_6/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2026-06-10.17:17:43::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2026-06-10.17:17:43::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/standalone_v9_2/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v9_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2026-06-10.17:17:43::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2026-06-10.17:17:43::SCWBDomain::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_7/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2026-06-10.17:17:43::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2026-06-10.17:17:43::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v5_3/src
+
+TRACE::2026-06-10.17:17:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v5_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2026-06-10.17:17:43::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2026-06-10.17:17:43::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:44::SCWBDomain::Finished building libraries parallelly.
+
+TRACE::2026-06-10.17:17:44::SCWBDomain::make --no-print-directory archive
+
+TRACE::2026-06-10.17:17:44::SCWBDomain::arm-none-eabi-ar -r  ps7_cortexa9_0/lib/libxil.a ps7_cortexa9_0/lib/_exit.o ps7_cortexa9_0/lib/_open.o ps7_cortexa9_0/lib/_sbrk
+TRACE::2026-06-10.17:17:44::SCWBDomain::.o ps7_cortexa9_0/lib/abort.o ps7_cortexa9_0/lib/asm_vectors.o ps7_cortexa9_0/lib/boot.o ps7_cortexa9_0/lib/close.o ps7_cortexa
+TRACE::2026-06-10.17:17:44::SCWBDomain::9_0/lib/cpputest_time.o ps7_cortexa9_0/lib/cpu_init.o ps7_cortexa9_0/lib/errno.o ps7_cortexa9_0/lib/fcntl.o ps7_cortexa9_0/lib/
+TRACE::2026-06-10.17:17:44::SCWBDomain::fstat.o ps7_cortexa9_0/lib/getentropy.o ps7_cortexa9_0/lib/getpid.o ps7_cortexa9_0/lib/gettimeofday.o ps7_cortexa9_0/lib/inbyte
+TRACE::2026-06-10.17:17:44::SCWBDomain::.o ps7_cortexa9_0/lib/isatty.o ps7_cortexa9_0/lib/kill.o ps7_cortexa9_0/lib/lseek.o ps7_cortexa9_0/lib/open.o ps7_cortexa9_0/li
+TRACE::2026-06-10.17:17:44::SCWBDomain::b/outbyte.o ps7_cortexa9_0/lib/print.o ps7_cortexa9_0/lib/putnum.o ps7_cortexa9_0/lib/read.o ps7_cortexa9_0/lib/sbrk.o ps7_cort
+TRACE::2026-06-10.17:17:44::SCWBDomain::exa9_0/lib/sleep.o ps7_cortexa9_0/lib/time.o ps7_cortexa9_0/lib/translation_table.o ps7_cortexa9_0/lib/unlink.o ps7_cortexa9_0/
+TRACE::2026-06-10.17:17:44::SCWBDomain::lib/usleep.o ps7_cortexa9_0/lib/vectors.o ps7_cortexa9_0/lib/write.o ps7_cortexa9_0/lib/xadcps.o ps7_cortexa9_0/lib/xadcps_g.o 
+TRACE::2026-06-10.17:17:44::SCWBDomain::ps7_cortexa9_0/lib/xadcps_intr.o ps7_cortexa9_0/lib/xadcps_selftest.o ps7_cortexa9_0/lib/xadcps_sinit.o ps7_cortexa9_0/lib/xcor
+TRACE::2026-06-10.17:17:44::SCWBDomain::esightpsdcc.o ps7_cortexa9_0/lib/xdevcfg.o ps7_cortexa9_0/lib/xdevcfg_g.o ps7_cortexa9_0/lib/xdevcfg_hw.o ps7_cortexa9_0/lib/xd
+TRACE::2026-06-10.17:17:44::SCWBDomain::evcfg_intr.o ps7_cortexa9_0/lib/xdevcfg_selftest.o ps7_cortexa9_0/lib/xdevcfg_sinit.o ps7_cortexa9_0/lib/xdmaps.o ps7_cortexa9_
+TRACE::2026-06-10.17:17:44::SCWBDomain::0/lib/xdmaps_g.o ps7_cortexa9_0/lib/xdmaps_hw.o ps7_cortexa9_0/lib/xdmaps_selftest.o ps7_cortexa9_0/lib/xdmaps_sinit.o ps7_cort
+TRACE::2026-06-10.17:17:44::SCWBDomain::exa9_0/lib/xil-crt0.o ps7_cortexa9_0/lib/xil_assert.o ps7_cortexa9_0/lib/xil_cache.o ps7_cortexa9_0/lib/xil_clocking.o ps7_cort
+TRACE::2026-06-10.17:17:44::SCWBDomain::exa9_0/lib/xil_exception.o ps7_cortexa9_0/lib/xil_mem.o ps7_cortexa9_0/lib/xil_misc_psreset_api.o ps7_cortexa9_0/lib/xil_mmu.o 
+TRACE::2026-06-10.17:17:44::SCWBDomain::ps7_cortexa9_0/lib/xil_printf.o ps7_cortexa9_0/lib/xil_sleepcommon.o ps7_cortexa9_0/lib/xil_sleeptimer.o ps7_cortexa9_0/lib/xil
+TRACE::2026-06-10.17:17:44::SCWBDomain::_spinlock.o ps7_cortexa9_0/lib/xil_sutil.o ps7_cortexa9_0/lib/xil_testcache.o ps7_cortexa9_0/lib/xil_testio.o ps7_cortexa9_0/li
+TRACE::2026-06-10.17:17:44::SCWBDomain::b/xil_testmem.o ps7_cortexa9_0/lib/xil_util.o ps7_cortexa9_0/lib/xinterrupt_wrap.o ps7_cortexa9_0/lib/xl2cc_counter.o ps7_corte
+TRACE::2026-06-10.17:17:44::SCWBDomain::xa9_0/lib/xplatform_info.o ps7_cortexa9_0/lib/xpm_counter.o ps7_cortexa9_0/lib/xpm_init.o ps7_cortexa9_0/lib/xscugic.o ps7_cort
+TRACE::2026-06-10.17:17:44::SCWBDomain::exa9_0/lib/xscugic_g.o ps7_cortexa9_0/lib/xscugic_hw.o ps7_cortexa9_0/lib/xscugic_intr.o ps7_cortexa9_0/lib/xscugic_selftest.o 
+TRACE::2026-06-10.17:17:44::SCWBDomain::ps7_cortexa9_0/lib/xscugic_sinit.o ps7_cortexa9_0/lib/xscutimer.o ps7_cortexa9_0/lib/xscutimer_g.o ps7_cortexa9_0/lib/xscutimer
+TRACE::2026-06-10.17:17:44::SCWBDomain::_selftest.o ps7_cortexa9_0/lib/xscutimer_sinit.o ps7_cortexa9_0/lib/xscuwdt.o ps7_cortexa9_0/lib/xscuwdt_g.o ps7_cortexa9_0/lib
+TRACE::2026-06-10.17:17:44::SCWBDomain::/xscuwdt_selftest.o ps7_cortexa9_0/lib/xscuwdt_sinit.o ps7_cortexa9_0/lib/xtime_l.o
+
+TRACE::2026-06-10.17:17:44::SCWBDomain::Finished building libraries
+
+TRACE::2026-06-10.17:17:44::SCWBDomain::make: Leaving directory '/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp'
+
+TRACE::2026-06-10.17:17:44::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c fsbl_hooks.c -o fsbl_hooks.o -Izynq_f
+TRACE::2026-06-10.17:17:44::SCWBDomain::sbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2026-06-10.17:17:44::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c image_mover.c -o image_mover.o -Izynq
+TRACE::2026-06-10.17:17:44::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2026-06-10.17:17:44::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c main.c -o main.o -Izynq_fsbl_bsp/ps7_
+TRACE::2026-06-10.17:17:44::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2026-06-10.17:17:44::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c md5.c -o md5.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2026-06-10.17:17:44::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2026-06-10.17:17:44::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c nand.c -o nand.o -Izynq_fsbl_bsp/ps7_
+TRACE::2026-06-10.17:17:44::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2026-06-10.17:17:44::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c nor.c -o nor.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2026-06-10.17:17:44::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2026-06-10.17:17:44::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c pcap.c -o pcap.o -Izynq_fsbl_bsp/ps7_
+TRACE::2026-06-10.17:17:44::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2026-06-10.17:17:45::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c ps7_init.c -o ps7_init.o -Izynq_fsbl_
+TRACE::2026-06-10.17:17:45::SCWBDomain::bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2026-06-10.17:17:45::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c qspi.c -o qspi.o -Izynq_fsbl_bsp/ps7_
+TRACE::2026-06-10.17:17:45::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2026-06-10.17:17:45::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c rsa.c -o rsa.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2026-06-10.17:17:45::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2026-06-10.17:17:45::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c sd.c -o sd.o -Izynq_fsbl_bsp/ps7_cort
+TRACE::2026-06-10.17:17:45::SCWBDomain::exa9_0/include -I.
+
+TRACE::2026-06-10.17:17:45::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c fsbl_handoff.S -o fsbl_handoff.o -Izy
+TRACE::2026-06-10.17:17:45::SCWBDomain::nq_fsbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2026-06-10.17:17:45::SCWBDomain::arm-none-eabi-gcc -o fsbl.elf fsbl_handoff.o fsbl_hooks.o image_mover.o main.o md5.o nand.o nor.o pcap.o ps7_init.o qspi.o rsa.
+TRACE::2026-06-10.17:17:45::SCWBDomain::o sd.o -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id
+TRACE::2026-06-10.17:17:45::SCWBDomain::=none -specs=Xilinx.spec  -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-
+TRACE::2026-06-10.17:17:45::SCWBDomain::group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group                            -Wl,--gc-sections -Lzynq_fsbl_bsp/ps7_cort
+TRACE::2026-06-10.17:17:45::SCWBDomain::exa9_0/lib -L./ -Tlscript.ld
+
+LOG::2026-06-10.17:17:45::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2026-06-10.17:17:45::SCWSystem::Not a boot domain 
+LOG::2026-06-10.17:17:45::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2026-06-10.17:17:45::SCWDomain::Generating domain artifcats
+TRACE::2026-06-10.17:17:45::SCWMssOS::Generating standalone artifcats
+TRACE::2026-06-10.17:17:45::SCWMssOS:: Copying the user libraries. 
+TRACE::2026-06-10.17:17:45::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:45::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:45::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:45::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:17:45::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:45::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:17:45::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:17:45::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:17:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:17:45::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:17:45::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:17:45::SCWMssOS::Completed writing the mss file at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2026-06-10.17:17:45::SCWMssOS::Mss edits present, copying mssfile into export location /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:17:45::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2026-06-10.17:17:45::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2026-06-10.17:17:45::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2026-06-10.17:17:45::SCWMssOS::doing bsp build ... 
+TRACE::2026-06-10.17:17:45::SCWMssOS::System Command Ran  cd  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp ; bash -c "make  " 
+TRACE::2026-06-10.17:17:45::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::Finished building libraries sequentially.
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::Running Make include in microblaze_0/libsrc/ddrps_v1_2/src
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::Running Make include in microblaze_0/libsrc/bram_v4_11/src
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::Running Make include in microblaze_0/libsrc/standalone_v9_2/src
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::make -C microblaze_0/libsrc/ddrps_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2026-06-10.17:17:45::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-c
+TRACE::2026-06-10.17:17:45::SCWMssOS::onvert -mxl-float-sqrt -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2026-06-10.17:17:45::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::Running Make include in microblaze_0/libsrc/cpu_v2_18/src
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_11/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2026-06-10.17:17:45::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-c
+TRACE::2026-06-10.17:17:45::SCWMssOS::onvert -mxl-float-sqrt -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2026-06-10.17:17:45::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2026-06-10.17:17:45::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-fl
+TRACE::2026-06-10.17:17:45::SCWMssOS::oat-convert -mxl-float-sqrt -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sectio
+TRACE::2026-06-10.17:17:45::SCWMssOS::ns -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2026-06-10.17:17:45::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-co
+TRACE::2026-06-10.17:17:45::SCWMssOS::nvert -mxl-float-sqrt -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2026-06-10.17:17:45::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::Running Make include in microblaze_0/libsrc/tmrctr_v4_13/src
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::Running Make include in microblaze_0/libsrc/uartlite_v3_11/src
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_13/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2026-06-10.17:17:45::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float
+TRACE::2026-06-10.17:17:45::SCWMssOS::-convert -mxl-float-sqrt -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2026-06-10.17:17:45::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_11/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar"
+TRACE::2026-06-10.17:17:45::SCWMssOS:: "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-flo
+TRACE::2026-06-10.17:17:45::SCWMssOS::at-convert -mxl-float-sqrt -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2026-06-10.17:17:45::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::Running Make libs in microblaze_0/libsrc/cpu_v2_18/src
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2026-06-10.17:17:45::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-conve
+TRACE::2026-06-10.17:17:45::SCWMssOS::rt -mxl-float-sqrt -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-06-10.17:17:45::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::Running Make libs in microblaze_0/libsrc/bram_v4_11/src
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::Running Make libs in microblaze_0/libsrc/standalone_v9_2/src
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::Running Make libs in microblaze_0/libsrc/ddrps_v1_2/src
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::Running Make libs in microblaze_0/libsrc/uartlite_v3_11/src
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::Running Make libs in microblaze_0/libsrc/tmrctr_v4_13/src
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_11/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2026-06-10.17:17:45::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-conv
+TRACE::2026-06-10.17:17:45::SCWMssOS::ert -mxl-float-sqrt -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2026-06-10.17:17:45::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::make -C microblaze_0/libsrc/ddrps_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2026-06-10.17:17:45::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-conv
+TRACE::2026-06-10.17:17:45::SCWMssOS::ert -mxl-float-sqrt -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2026-06-10.17:17:45::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2026-06-10.17:17:45::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float
+TRACE::2026-06-10.17:17:45::SCWMssOS::-convert -mxl-float-sqrt -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2026-06-10.17:17:45::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_13/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2026-06-10.17:17:45::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-co
+TRACE::2026-06-10.17:17:45::SCWMssOS::nvert -mxl-float-sqrt -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2026-06-10.17:17:45::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:45::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_11/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2026-06-10.17:17:45::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-
+TRACE::2026-06-10.17:17:45::SCWMssOS::convert -mxl-float-sqrt -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2026-06-10.17:17:45::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-06-10.17:17:46::SCWMssOS::DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o
+
+TRACE::2026-06-10.17:17:46::SCWMssOS::Finished building libraries parallelly.
+
+TRACE::2026-06-10.17:17:46::SCWMssOS::make --no-print-directory archive
+
+TRACE::2026-06-10.17:17:46::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2026-06-10.17:17:46::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2026-06-10.17:17:46::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2026-06-10.17:17:46::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2026-06-10.17:17:46::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2026-06-10.17:17:46::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2026-06-10.17:17:46::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2026-06-10.17:17:46::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2026-06-10.17:17:46::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2026-06-10.17:17:46::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2026-06-10.17:17:46::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2026-06-10.17:17:46::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2026-06-10.17:17:46::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2026-06-10.17:17:46::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xil_assert.o microblaze_0/lib/xil_cache.o microblaze_0
+TRACE::2026-06-10.17:17:46::SCWMssOS::/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_mem.o microblaze_0/lib/xil_misc_psreset_api.o microbl
+TRACE::2026-06-10.17:17:46::SCWMssOS::aze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_sutil.o microblaze_0/lib/xil_testcache.o microbl
+TRACE::2026-06-10.17:17:46::SCWMssOS::aze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xinterrupt_wrap.o microblaze
+TRACE::2026-06-10.17:17:46::SCWMssOS::_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xpm_init.o microblaze_0/lib/xtmrctr.o microblaze_0/lib/xtmrctr_
+TRACE::2026-06-10.17:17:46::SCWMssOS::g.o microblaze_0/lib/xtmrctr_intr.o microblaze_0/lib/xtmrctr_l.o microblaze_0/lib/xtmrctr_options.o microblaze_0/lib/xtmrctr_se
+TRACE::2026-06-10.17:17:46::SCWMssOS::lftest.o microblaze_0/lib/xtmrctr_sinit.o microblaze_0/lib/xtmrctr_stats.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xuartl
+TRACE::2026-06-10.17:17:46::SCWMssOS::ite_g.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib
+TRACE::2026-06-10.17:17:46::SCWMssOS::/xuartlite_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2026-06-10.17:17:46::SCWMssOS::Finished building libraries
+
+TRACE::2026-06-10.17:17:46::SCWMssOS::Copying to export directory.
+TRACE::2026-06-10.17:17:46::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2026-06-10.17:17:46::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2026-06-10.17:17:46::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2026-06-10.17:17:46::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2026-06-10.17:17:46::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2026-06-10.17:17:46::SCWPlatform::Started preparing the platform 
+TRACE::2026-06-10.17:17:46::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2026-06-10.17:17:46::SCWSystem::dir created 
+TRACE::2026-06-10.17:17:46::SCWSystem::Writing the bif 
+TRACE::2026-06-10.17:17:46::SCWPlatform::Started writing the spfm file 
+TRACE::2026-06-10.17:17:46::SCWPlatform::Started writing the xpfm file 
+TRACE::2026-06-10.17:17:46::SCWPlatform::Completed generating the platform
+TRACE::2026-06-10.17:17:46::SCWMssOS::Saving the mss changes /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:17:46::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-06-10.17:17:46::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-06-10.17:17:46::SCWMssOS::Commit changes completed.
+TRACE::2026-06-10.17:17:46::SCWMssOS::Saving the mss changes /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:17:46::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-06-10.17:17:46::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-06-10.17:17:46::SCWMssOS::Commit changes completed.
+TRACE::2026-06-10.17:17:46::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:17:46::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:17:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:17:46::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:17:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:17:46::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:17:46::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:17:46::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:17:46::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:17:46::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:17:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:17:46::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:17:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:17:46::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:17:46::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:17:46::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:17:46::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:17:46::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:17:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:17:46::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:17:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:17:46::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:17:46::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:17:46::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-06-10.17:17:46::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:17:46::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:17:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:17:46::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:17:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:17:46::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:17:46::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:17:46::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:17:46::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:17:46::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:17:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:17:46::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:17:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:17:46::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:17:46::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:17:46::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:17:46::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:17:46::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:17:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:17:46::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:17:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:17:46::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:17:46::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:17:46::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:17:46::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"/home/gio/uni/aca/fpga/aca_fpga_homework2.2/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.2",
+					"mssFile":	"",
+					"md5Digest":	"b7fcd16eb3f076409d4e9d0101b47651",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.3", "xilrsa:1.8"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.2",
+					"mssFile":	"",
+					"md5Digest":	"dc90d2ebf081962174e675236210d9dd",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2026-06-10.17:17:46::SCWPlatform::updated the xpfm file.
+TRACE::2026-06-10.17:17:46::SCWPlatform::Trying to open the hw design at /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform::DSA given /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform::DSA absoulate path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform::DSA directory /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-06-10.17:17:46::SCWPlatform:: Platform Path /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-06-10.17:17:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-06-10.17:17:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-06-10.17:17:46::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-06-10.17:17:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-06-10.17:17:46::SCWMssOS::Checking the sw design at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-06-10.17:17:46::SCWMssOS::DEBUG:  swdes dump  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-06-10.17:17:46::SCWMssOS::Sw design exists and opened at  /home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss

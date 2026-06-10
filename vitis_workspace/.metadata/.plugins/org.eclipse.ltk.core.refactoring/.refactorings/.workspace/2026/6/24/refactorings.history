@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;memory_hierarchy/src/helloworld.c&apos;" deleteContents="false" description="Delete resource &apos;memory_hierarchy/src/helloworld.c&apos;" element1="/memory_hierarchy/src/helloworld.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1781104525737"/>
+</session>

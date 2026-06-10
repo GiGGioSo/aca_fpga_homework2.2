@@ -1,0 +1,20 @@
+Nothing to build in platform 'design_1_wrapper'
+
+17:35:17 **** Incremental Build of configuration Debug for project memory_hierarchy ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: memory_hierarchy.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L/home/gio/uni/aca/fpga/aca_fpga_homework2.2/vitis_workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "memory_hierarchy.elf" ./src/main.o ./src/matmul.o ./src/platform.o ./src/timer.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: memory_hierarchy.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size memory_hierarchy.elf  |tee "memory_hierarchy.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  63512	   1520	134219168	134284200	80103a8	memory_hierarchy.elf
+Finished building: memory_hierarchy.elf.size
+ 

@@ -1,0 +1,19 @@
+timestamp=[2026-06-10 17:12:09], mode=WORKBENCH_START, duration=0:00:06.152, duration_ms=6152, data={}
+timestamp=[2026-06-10 17:12:09], mode=WORKBENCH_UI_INIT, duration=0:00:00.018, duration_ms=18, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2026-06-10 17:12:09], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.013, duration_ms=13, data={}
+timestamp=[2026-06-10 17:13:38], mode=APP_CREATION, duration=0:00:08.065, duration_ms=8065, data={name=memory_hierarchy, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=design_1_wrapper, application_type=application}
+timestamp=[2026-06-10 17:17:49], mode=PLATFORM_GENERATION, duration=0:00:07.695, duration_ms=7695, data={name=design_1_wrapper}
+timestamp=[2026-06-10 17:17:50], mode=BUILD, duration=0:00:00.373, duration_ms=373, data={name=memory_hierarchy, configuration=Debug, clean_build=false}
+timestamp=[2026-06-10 17:19:28], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=memory_hierarchy, configuration=Debug, clean_build=false}
+timestamp=[2026-06-10 17:23:42], mode=BUILD, duration=0:00:00.130, duration_ms=130, data={name=memory_hierarchy, configuration=Debug, clean_build=true}
+timestamp=[2026-06-10 17:23:43], mode=BUILD, duration=0:00:00.368, duration_ms=368, data={name=memory_hierarchy, configuration=Debug, clean_build=false}
+timestamp=[2026-06-10 17:23:46], mode=BUILD, duration=0:00:00.370, duration_ms=370, data={name=memory_hierarchy, configuration=Release, clean_build=false}
+timestamp=[2026-06-10 17:32:11], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.010, duration_ms=10, data={}
+timestamp=[2026-06-10 17:32:11], mode=WORKBENCH_START, duration=0:00:05.573, duration_ms=5573, data={}
+timestamp=[2026-06-10 17:32:11], mode=WORKBENCH_UI_INIT, duration=0:00:00.100, duration_ms=100, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,memory_hierarchy,memory_hierarchy_system}
+timestamp=[2026-06-10 17:33:03], mode=BUILD, duration=0:00:00.139, duration_ms=139, data={name=memory_hierarchy, configuration=Debug, clean_build=true}
+timestamp=[2026-06-10 17:33:04], mode=BUILD, duration=0:00:00.317, duration_ms=317, data={name=memory_hierarchy, configuration=Debug, clean_build=false}
+timestamp=[2026-06-10 17:33:05], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=memory_hierarchy, configuration=Release, clean_build=true}
+timestamp=[2026-06-10 17:33:06], mode=BUILD, duration=0:00:00.372, duration_ms=372, data={name=memory_hierarchy, configuration=Release, clean_build=false}
+timestamp=[2026-06-10 17:34:48], mode=BUILD, duration=0:00:00.214, duration_ms=214, data={name=memory_hierarchy, configuration=Release, clean_build=false}
+timestamp=[2026-06-10 17:35:18], mode=BUILD, duration=0:00:00.214, duration_ms=214, data={name=memory_hierarchy, configuration=Debug, clean_build=false}
