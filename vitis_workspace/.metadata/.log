@@ -7750,3 +7750,9 @@ Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: 
 
 !ENTRY com.xilinx.sdk.utils 1 0 2026-06-10 17:35:31.669
 !MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '4'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-10 17:48:11.629
+!MESSAGE XSCT Command: [disconnect tcfchan#4], Thread: Thread-332
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-10 17:48:11.631
+!MESSAGE XSCT command with result: [disconnect tcfchan#4], Result: [null, ]. Thread: Thread-332

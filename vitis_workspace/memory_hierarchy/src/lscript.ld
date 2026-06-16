@@ -19,6 +19,10 @@ MEMORY
 {
    microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem : ORIGIN = 0x50, LENGTH = 0x1FFB0
    ps7_ddr_0_HP0_AXI_BASENAME : ORIGIN = 0x20000000, LENGTH = 0x20000000
+   newMemory2  : ORIGIN = 0x0, LENGTH = 0x0
+   newMemory3  : ORIGIN = 0x0, LENGTH = 0x0
+   newMemory4  : ORIGIN = 0x0, LENGTH = 0x0
+   newMemory5  : ORIGIN = 0x0, LENGTH = 0x0
 }
 
 /* Specify the default entry point to the program */
