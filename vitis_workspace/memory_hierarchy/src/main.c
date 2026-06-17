@@ -24,34 +24,26 @@ void kernel1Optimisation(int *A, int size, int offset)
 {
     int i;
     // Loop unrolling
-    for (i = 0; i < size - offset - (size - offset) % 5; i = i + 5)
+    for (i = 0; i < size - offset - (size - offset) % 4; i = i + 4)
     {
         A[i] += A[i + offset];
         A[i + 1] += A[i + offset + 1];
         A[i + 2] += A[i + offset + 2];
         A[i + 3] += A[i + offset + 3];
-        A[i + 4] += A[i + offset + 4];
-        A[i + 5] += A[i + offset + 5];
     }
     // Handeling the edgecase when size is not a multiple of 5
     i++;
-    if (i < size - offset)
-        A[i] += A[i + offset];
+    if (i >= size - offset)
+        return;
+    A[i] += A[i + offset];
     i++;
-    if (i < size - offset)
-        A[i + 1] += A[i + offset + 1];
+    if (i >= size - offset)
+        return;
+    A[i] += A[i + offset];
     i++;
-    if (i < size - offset)
-        A[i + 2] += A[i + offset + 2];
-    i++;
-    if (i < size - offset)
-        A[i + 3] += A[i + offset + 3];
-    i++;
-    if (i < size - offset)
-        A[i + 4] += A[i + offset + 4];
-    i++;
-    if (i < size - offset)
-        A[i + 5] += A[i + offset + 5];
+    if (i >= size - offset)
+        return;
+    A[i] += A[i + offset];
 }
 
 void kernel2(int *A, int size)
@@ -64,29 +56,25 @@ void kernel2(int *A, int size)
 void kernel2Optimisation(int *A, int size)
 {
     int i;
-    for (i = 3; i < size - size % 5; i = i + 5)
+    for (i = 3; i < size - size % 4; i = i + 4)
     {
         A[i] = A[i - 1] + A[i - 2] * A[i - 3];
         A[i + 1] = A[i] + A[i - 1] * A[i - 2];
         A[i + 2] = A[i + 1] + A[i] * A[i - 1];
         A[i + 3] = A[i + 2] + A[i + 1] * A[i];
-        A[i + 4] = A[i + 3] + A[i + 2] * A[i + 1];
     }
     i++;
-    if (i < size)
-        A[i] = A[i - 1] + A[i - 2] * A[i - 3];
+    if (i >= size)
+        return;
+    A[i] = A[i - 1] + A[i - 2] * A[i - 3];
     i++;
-    if (i < size)
-        A[i] = A[i - 1] + A[i - 2] * A[i - 3];
+    if (i >= size)
+        return;
+    A[i] = A[i - 1] + A[i - 2] * A[i - 3];
     i++;
-    if (i < size)
-        A[i] = A[i - 1] + A[i - 2] * A[i - 3];
-    i++;
-    if (i < size)
-        A[i] = A[i - 1] + A[i - 2] * A[i - 3];
-    i++;
-    if (i < size)
-        A[i] = A[i - 1] + A[i - 2] * A[i - 3];
+    if (i >= size)
+        return;
+    A[i] = A[i - 1] + A[i - 2] * A[i - 3];
 }
 
 void kernel3(float *h, float *w, int *idx, int size)
@@ -112,7 +100,7 @@ float kernel4Optimisation(float *A, float *B, int size)
     float sum = 0;
     float diff = 0;
     int i;
-    for (i = 0; i < size - size % 5; i++)
+    for (i = 0; i < size - size % 4; i += 4)
     {
         // removing the if statment
         diff = A[i] - B[i];
@@ -122,29 +110,25 @@ float kernel4Optimisation(float *A, float *B, int size)
         diff = A[i + 2] - B[i + 2];
         sum = (sum + diff * (diff > 0));
         diff = A[i + 3] - B[i + 3];
-        sum = (sum + diff * (diff > 0));
-        diff = A[i + 4] - B[i + 4];
     }
     i++;
-    if (i < size)
-        diff = A[i] - B[i];
+    if (i >= size)
+        return;
+    diff = A[i] - B[i];
     sum = (sum + diff * (diff > 0));
+
     i++;
-    if (i < size)
-        diff = A[i] - B[i];
+    if (i >= size)
+        return;
+    diff = A[i] - B[i];
     sum = (sum + diff * (diff > 0));
+
     i++;
-    if (i < size)
-        diff = A[i] - B[i];
+    if (i >= size)
+        return;
+    diff = A[i] - B[i];
     sum = (sum + diff * (diff > 0));
-    i++;
-    if (i < size)
-        diff = A[i] - B[i];
-    sum = (sum + diff * (diff > 0));
-    i++;
-    if (i < size)
-        diff = A[i] - B[i];
-    sum = (sum + diff * (diff > 0));
+
     return sum;
 }
 
