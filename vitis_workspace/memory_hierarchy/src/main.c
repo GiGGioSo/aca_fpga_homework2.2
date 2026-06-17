@@ -23,6 +23,14 @@ void fill_vector_random(int *matrix, int size)
     }
 }
 
+void fill_indirection_vector_random(int *matrix, int size)
+{
+    for (int j = 0; j < size; j++)
+    {
+        matrix[j] = rand() % size; // Random int between 0 and size to creat an indirection Vector
+    }
+}
+
 void kernel1(int *A, int size, int offset)
 {
     int i;
@@ -101,9 +109,9 @@ void kernel3Optimisation(float *h, float *w, int *idx, int size)
     for (i = 0; i < size - size % 4; i += 4)
     {
         h[idx[i]] = h[idx[i]] + w[i];
-        h[idx[i]] = h[idx[i]] + w[i];
-        h[idx[i]] = h[idx[i]] + w[i];
-        h[idx[i]] = h[idx[i]] + w[i];
+        h[idx[i + 1]] = h[idx[i + 1]] + w[i + 1];
+        h[idx[i + 2]] = h[idx[i + 2]] + w[i + 2];
+        h[idx[i + 3]] = h[idx[i + 3]] + w[i + 3];
     }
     i++;
     if (i >= size)
