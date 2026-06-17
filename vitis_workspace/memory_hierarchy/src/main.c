@@ -13,6 +13,16 @@
 #define ROWS_B 128
 #define COLS_B 128
 
+#define VECTOR_A 4096
+
+void fill_vector_random(int *matrix, int size)
+{
+    for (int j = 0; j < size; j++)
+    {
+        matrix[j] = rand() % 4096; // Random double between 0 and 4095
+    }
+}
+
 void kernel1(int *A, int size, int offset)
 {
     int i;
@@ -163,41 +173,31 @@ int main()
 
     srand(42);
 
-    if (COLS_A != ROWS_B)
-    {
-        xil_printf("COLS_A=%d and ROWS_B=%d do not match.\r\n", COLS_A, ROWS_B);
-        return -1;
-    }
+    int *A = (int *)malloc(VECTOR_A * sizeof(int));
 
-    int *A = (int *)malloc(ROWS_A * COLS_A * sizeof(int));
-    int *B = (int *)malloc(ROWS_B * COLS_B * sizeof(int));
-    int *C = (int *)malloc(ROWS_A * COLS_B * sizeof(int));
-
-    if (A == NULL || B == NULL || C == NULL)
-    {
-        xil_printf("Memory allocation failed\n");
-        return 1;
-    }
-
-    fill_matrix_random(A, ROWS_A, COLS_A);
-    fill_matrix_random(B, ROWS_B, COLS_B);
-    fill_matrix_zeros(C, ROWS_A, COLS_B);
+    fill_vector_random(A, VECTOR_A);
 
     // Perform matrix multiplication
     start_timer();
-    naive_matrix_multiply(A, B, C, ROWS_A, COLS_A, COLS_B);
+    kernel1(A, VECTOR_A, 5);
     double t = stop_timer();
 
     char s[128] = {};
-    sprintf(s, "Time: %.4fs\r\n", t);
+    sprintf(s, "Base Time: %.4fs\r\n", t);
     xil_printf("%s", s);
 
-    while (1)
-        naive_matrix_multiply(A, B, C, ROWS_A, COLS_A, COLS_B);
+    fill_vector_random(A, VECTOR_A);
 
-    // Free allocated memory
+    // Perform matrix multiplication
+    start_timer();
+    kernel1Optimisation(A, VECTOR_A, 5);
+    double t = stop_timer();
+
+    char s[128] = {};
+    sprintf(s, "Improvment Time: %.4fs\r\n", t);
+    xil_printf("%s", s);
+
     free(A);
-    free(B);
-    free(C);
+
     return 0;
 }
