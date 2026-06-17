@@ -24,7 +24,7 @@ void kernel1Optimisation(int *A, int size, int offset)
 {
     int i;
     // Loop unrolling
-    for (i = 0; i < size - offset - (size - offset) % 4; i = i + 4)
+    for (i = 0; i < size - offset - (size - offset) % 4; i += 4)
     {
         A[i] += A[i + offset];
         A[i + 1] += A[i + offset + 1];
@@ -56,7 +56,7 @@ void kernel2(int *A, int size)
 void kernel2Optimisation(int *A, int size)
 {
     int i;
-    for (i = 3; i < size - size % 4; i = i + 4)
+    for (i = 3; i < size - size % 4; i += 4)
     {
         A[i] = A[i - 1] + A[i - 2] * A[i - 3];
         A[i + 1] = A[i] + A[i - 1] * A[i - 2];
@@ -79,8 +79,34 @@ void kernel2Optimisation(int *A, int size)
 
 void kernel3(float *h, float *w, int *idx, int size)
 {
-    for (int i = 0; i < ARRAY_SIZE; ++i)
+    for (int i = 0; i < size; ++i)
         h[idx[i]] = h[idx[i]] + w[i];
+}
+
+void kernel3(float *h, float *w, int *idx, int size)
+{
+    int i;
+    for (i = 0; i < size - size % 4; i += 4)
+    {
+        h[idx[i]] = h[idx[i]] + w[i];
+        h[idx[i]] = h[idx[i]] + w[i];
+        h[idx[i]] = h[idx[i]] + w[i];
+        h[idx[i]] = h[idx[i]] + w[i];
+    }
+    i++;
+    if (i >= size)
+        return;
+    h[idx[i]] = h[idx[i]] + w[i];
+
+    i++;
+    if (i >= size)
+        return;
+    h[idx[i]] = h[idx[i]] + w[i];
+
+    i++;
+    if (i >= size)
+        return;
+    h[idx[i]] = h[idx[i]] + w[i];
 }
 
 float kernel4(float *A, float *B, int size)
