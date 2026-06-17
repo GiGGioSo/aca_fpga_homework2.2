@@ -13,7 +13,7 @@
 #define ROWS_B 128
 #define COLS_B 128
 
-#define VECTOR_A 4096
+#define VECTOR_A 4096 * 256
 
 void fill_vector_random(int *matrix, int size)
 {
@@ -28,6 +28,7 @@ void kernel1(int *A, int size, int offset)
     int i;
     for (i = 0; i < size - offset; i++)
         A[i] += A[i + offset];
+    return;
 }
 
 void kernel1Optimisation(int *A, int size, int offset)
@@ -54,6 +55,7 @@ void kernel1Optimisation(int *A, int size, int offset)
     if (i >= size - offset)
         return;
     A[i] += A[i + offset];
+    return;
 }
 
 void kernel2(int *A, int size)
@@ -93,7 +95,7 @@ void kernel3(float *h, float *w, int *idx, int size)
         h[idx[i]] = h[idx[i]] + w[i];
 }
 
-void kernel3(float *h, float *w, int *idx, int size)
+void kernel3Optimisation(float *h, float *w, int *idx, int size)
 {
     int i;
     for (i = 0; i < size - size % 4; i += 4)
@@ -149,19 +151,19 @@ float kernel4Optimisation(float *A, float *B, int size)
     }
     i++;
     if (i >= size)
-        return;
+        return sum;
     diff = A[i] - B[i];
     sum = (sum + diff * (diff > 0));
 
     i++;
     if (i >= size)
-        return;
+        return sum;
     diff = A[i] - B[i];
     sum = (sum + diff * (diff > 0));
 
     i++;
     if (i >= size)
-        return;
+        return sum;
     diff = A[i] - B[i];
     sum = (sum + diff * (diff > 0));
 
@@ -170,34 +172,38 @@ float kernel4Optimisation(float *A, float *B, int size)
 
 int main()
 {
-
+    init_platform();
     srand(42);
 
     int *A = (int *)malloc(VECTOR_A * sizeof(int));
+    int *B = (int *)malloc(VECTOR_A * sizeof(int));
 
     fill_vector_random(A, VECTOR_A);
+    fill_vector_random(B, VECTOR_A);
 
     // Perform matrix multiplication
     start_timer();
-    kernel1(A, VECTOR_A, 5);
+    kernel2(A, VECTOR_A);
     double t = stop_timer();
 
     char s[128] = {};
-    sprintf(s, "Base Time: %.4fs\r\n", t);
-    xil_printf("%s", s);
+    printf("Base Time: %.4fs\r\n", t);
+    // sprintf(s, "Base Time: %.4fs\r\n", t);
+    // xil_printf("%s", s);
 
     fill_vector_random(A, VECTOR_A);
+    fill_vector_random(B, VECTOR_A);
 
     // Perform matrix multiplication
     start_timer();
-    kernel1Optimisation(A, VECTOR_A, 5);
-    double t = stop_timer();
+    kernel2Optimisation(A, VECTOR_A);
+    t = stop_timer();
 
-    char s[128] = {};
-    sprintf(s, "Improvment Time: %.4fs\r\n", t);
-    xil_printf("%s", s);
+    printf("Base Time: %.4fs\r\n", t);
+    // sprintf(s, "Improvment Time: %.4fs\r\n", t);
+    // xil_printf("%s", s);
 
     free(A);
-
+    cleanup_platform();
     return 0;
 }
